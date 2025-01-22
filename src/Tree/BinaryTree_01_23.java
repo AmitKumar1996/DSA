@@ -34,7 +34,7 @@ public class BinaryTree_01_23 {
 		}
 		
 	}
-	//Amit kumar
+	// kumar
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
