@@ -13,7 +13,7 @@ public class BinaryTree_01_28 {
 			left.right=null;
 		}
 		
-	static	class BinaryTree{
+	static	class BinaryTreeYT{
 		
 		static int idx=-1;
 		public static Node buildTree(int nodes[]) {
@@ -37,6 +37,15 @@ public class BinaryTree_01_28 {
 	}
 
 	public static void main(String[] args) {
+		
+		int nodes[]= {1,2,3,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+		
+		Tree.BinaryTree_01_28.Node.BinaryTreeYT tree= new Tree.BinaryTree_01_28.Node.BinaryTreeYT();
+		
+		Node root=tree.buildTree(nodes);
+		
+		System.out.println(root.data);
+		
 		
 		// TODO Auto-generated method stub
 
