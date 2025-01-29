@@ -40,9 +40,9 @@ public class BinaryTree_01_28 {
 		
 		int nodes[]= {1,2,3,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
 		
-		Tree.BinaryTree_01_28.Node.BinaryTreeYT tree= new Tree.BinaryTree_01_28.Node.BinaryTreeYT();
+		BinaryTree_01_28 tree= new BinaryTree_01_28();
 		
-		Node root=tree.buildTree(nodes);
+		
 		
 		System.out.println(root.data);
 		
