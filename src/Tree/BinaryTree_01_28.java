@@ -44,7 +44,7 @@ public class BinaryTree_01_28 {
 		
 		
 		
-		System.out.println(root.data);
+	//	System.out.println(tree.data);
 		
 		
 		// TODO Auto-generated method stub

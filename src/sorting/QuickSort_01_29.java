@@ -6,8 +6,15 @@ public class QuickSort_01_29 {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {5, 4, 3,2,1};
+	//	int arr[]= {5, 4, 3,2,1,6};
+	
+	// int arr[] = {1, 2, 3, 4, 5, 6};
 		
+	//	int arr[] = {7, 7, 7, 7, 7};
+		
+		int arr[] = {42, -1, 0, -2};
+
+
 		sort(arr, 0, arr.length-1);
 		
 		
@@ -27,7 +34,7 @@ public class QuickSort_01_29 {
 		int m= s+ (e-s)/2;
 		int pivot= nums[m];
 		
-		while(s<=e) {
+		while(s<e) {
 			
 			while(nums[s] < pivot) {
 				s++;
