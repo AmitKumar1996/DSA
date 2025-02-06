@@ -20,6 +20,16 @@ public class BinaryTree_02_05 {
 		
 		static int idx=-1;
 		
+		public Node buildTree(int[] nodes) {
+			if(idx>=nodes.length || nodes[idx]== -1) {
+				return null;
+			}
+			Node newNode= new Node(nodes[idx]);
+			newNode.left=buildTree(nodes);
+			newNode.right=buildTree(nodes);
+			return newNode;
+		}
+		
 		
 	}
 
